@@ -248,7 +248,7 @@ class Project {
         result.append("Critical Paths \n")
         for criticalPath in criticalPaths {
             for activity in criticalPath {
-                result.append("\(activity.id) ")
+                result.append("\(activity.description) ")
             }
              result.append("\n")
         }
